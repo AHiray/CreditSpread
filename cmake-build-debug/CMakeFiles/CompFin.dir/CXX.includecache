@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/arnavhiray/CLionProjects/CompFin/creditSpread.h
+iostream
+-
+vector
+-
+
+/Users/arnavhiray/CLionProjects/CompFin/main.cpp
+iostream
+-
+vector
+-
+creditSpread.h
+/Users/arnavhiray/CLionProjects/CompFin/creditSpread.h
+
